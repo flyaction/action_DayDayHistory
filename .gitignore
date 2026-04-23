@@ -1,0 +1,51 @@
+# IDE & Editor
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependencies
+vendor/
+node_modules/
+
+# Environment & Config
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Cache & Temp
+cache/
+temp/
+tmp/
+*.tmp
+*.swp
+*.swo
+*~
+
+# Uploads (if any)
+uploads/
+public/uploads/
+
+# Database dumps (except dayday.sql)
+*.sql
+!dayday.sql
+
+# Composer
+composer.lock
+
+# PHPUnit
+.phpunit.result.cache
+phpunit.xml
+
+# Build files
+build/
+dist/
